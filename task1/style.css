@@ -23,12 +23,12 @@ header{
     justify-content: space-between;
     padding: 30px 12%;
 }
-.logo{
+logo{
     color: #141313;
     font-size: 32px;
     font-weight: 700;
 }
-.logo span{
+logo span{
     color: #FF6D64;
     
 }
