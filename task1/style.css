@@ -23,12 +23,23 @@ header{
     justify-content: space-between;
     padding: 30px 12%;
 }
-logo{
+.logo{
     color: #141313;
     font-size: 32px;
     font-weight: 700;
 }
-logo span{
+.logo span{
     color: #FF6D64;
-    
+}
+.navlist{
+    display: flex;
+    align-items: center;
+}
+.navlist a{
+    color: #141313;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: all .42s;
 }
