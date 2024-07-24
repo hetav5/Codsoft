@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
 }    
 .inter-fonts {
   font-family: "Inter", sans-serif;
@@ -17,7 +19,7 @@ header{
     width: 100%;
     top:0;
     right: 0;
-    z-index: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +27,7 @@ header{
 }
 .logo{
     color: #141313;
-    font-size: 32px;
+    font-size: 37px;
     font-weight: 700;
 }
 .logo span{
@@ -37,9 +39,53 @@ header{
 }
 .navlist a{
     color: #141313;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 600;
     text-transform: capitalize;
     padding: 10px 20px;
     transition: all .42s;
+}
+.navlist a:hover{
+    color: #FF6D64;
+}
+.btn-icon{
+    display:flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    font-size: 26px;
+    color: #141313;
+    font-weight: 700;
+    background: transparent;
+    padding: 10px 20px ;
+    border: 2px solid #141313;
+    border-radius: 10px;
+    transition: all .42s;
+
+}
+.btn:hover{
+    background:#141313;
+    color:#fff
+}
+#menu-icon{
+    font-size: 28px;
+    color: #141313;
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: 10px;
+    display: none;
+}
+/*home section */
+section{
+    padding: 100px 12%;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100px 75px 100px 25px  ;
+    background-image: url(dp.jpg);
+    background-repeat: no-repeat ;
+
 }
