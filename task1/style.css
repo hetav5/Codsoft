@@ -146,3 +146,25 @@ section{
     display: flex;
     align-items: center;
 }
+.mn-btn img{
+    width:20px;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 6px;
+    }
+.mn-btn{
+    display: inline block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #141313;
+    border: 2px solid #141313;
+    border-radius: 10px;
+    transition: all .43;
+}    
+mn-btn:hover{
+    background: transparent;
+    color: #141313;
+}
