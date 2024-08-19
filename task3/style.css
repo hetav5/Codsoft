@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #525B76;
+  background: red;
 }
 
 
@@ -23,7 +23,7 @@ body {
   width: 100%;
   border-radius: 12px;
   padding: 10px 20px 20px;
-  background: #869D96;
+  background: #201E50;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 .display {
